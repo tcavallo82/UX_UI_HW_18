@@ -3,7 +3,7 @@ body {
   }
   header {
     background-color:white;
-    padding: 10px 139px 10px 139px;
+    padding: 10px 15px 10px 15px;
   }
   .nameTag {
     display: inline-block;
@@ -31,16 +31,18 @@ body {
   header p {
     display: inline-block;
   }
-  .heroImg {
-    background-color: white;
-    padding: 15px 400px 15px 400px;
-    font-family: 'Blinker', sans-serif;
+  #banner {
+    padding: 20px;
   }
-  .content {
-    padding: 50px;
-    background-color: #FFFFFF;
+  .myUX {
+    background-color: #003865;
+    display: block;
+    margin: 0;
+    font-family: 'Blinker', sans-serif;
+    color: white;
+    padding: 15px;
     text-align: center;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 600;
   }
   button {
@@ -54,7 +56,9 @@ body {
     background-color: white;
     padding: 5px;
     color: black;
-    float: right;
+    right: 15px;
+    position: fixed;
+    bottom: 0;
   }
   footer ul {
     list-style: none;
@@ -65,13 +69,36 @@ body {
     padding: 0px 15px;
     font-family: 'Blinker', sans-serif;
   }
-h2 {
-  font-family: 'Blinker', sans-serif;
-  font-weight: 500;
-  color: white;
+ h2 {
+   font-family: 'Blinker', sans-serif;
+   font-weight: 500;
+   color: white;
+}
+ p {
+   font-family: 'Blinker', sans-serif;
+}
+ h3 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 500;
+    color: white; 
+}
+ #mySkills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skillBlock {
+    text-align: center;
+    background-color: #DFE3E5;
+    padding: 25px;
+    height: 500px;
+    width: 600px;
+    margin: 15px;
+    box-shadow: 0px 0px 10px 4px rgb(198, 211, 216, .3);
+    align-content: center;
 }
 h1 {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 26px;
 }
