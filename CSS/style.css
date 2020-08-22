@@ -70,3 +70,8 @@ h2 {
   font-weight: 500;
   color: white;
 }
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size: 36px;
+}
